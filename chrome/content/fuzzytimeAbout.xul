@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://fuzzytime/locale/fuzzytime.dtd">
+
+<dialog id="fuzzytime-info"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="About Fuzzy Time"
+	buttons="accept">
+
+<vbox flex="1" width="400" style="text-align: left; background-color: white; -moz-border-radius: 13px; border: 1px solid black">
+	<description style="font-weight: bold; font-size: 1.5em">Fuzzy Time</description>
+	<spacer height="15"/>
+	<description style="font-weight: bold">Created by</description>
+	<description>Ingo Oppermann</description>
+	<spacer height="15"/>
+	<description style="font-weight: bold">Contributors</description>
+	<description>
+		David L. Pratte (French locale), Geert De Maeyer (Dutch locale), Qaz Janssen (Dutch locale), David L. Pratte (Spanish locale),
+		Javier Anton (Spanish locale), Luiz Augusto Nolasco (Portuguese locale), Davide Bordiga (Italian locale), Karri Kaukinen (Finnish locale),
+		Ingvar Johansson (Swedish locale), Dendi Reza (Indonesian locale), Costas Mylonas (Greek locale), Lars Holmgaard, larsholmgaard.dk (Danish locale),
+		Andrew Kirillov (Russian locale), Oivind Skau (Norwegian locale), Pooyan Zamanian (Persian locale), Andreas Martin (Swiss German [Basel] locale),
+		Kurt Kriesi (Swiss German locale), Martin Weinz (German Hessisch locale), Andreas Makarenko (Russian locale), Jonathan Schlegel (Swiss German [Bern] locale),
+		Ramon Maria Gallart (Catalan locale), Wladow (Slovak locale), Norbert Csík (Hungarian locale), András Szekely (Hungarian locale), 
+		Catalina Alexandru (Romanian locale), Kim Sullivan (Czech locale), Selçuk Dolapçi (Turkish locale), Hillel Abramovitch (Hebrew locale),
+		Mazen Bamasoud (Arabic locale), Steffen Körner (German Thüringisch locale), Dan Rowden (Afrikaans locale), Santiag! (Galician locale),
+		Rick Cart (Chinese locale), Tiago Xarepe (Porutguese locale), Harald Götz (German Bayrisch locale), Michał Cieślicki (Polish locale),
+		Cristiano "Baro" Dri (Friulian locale), Piotr Dybiec (Polish locale), Jose Jara JJPP (Chilean locale) Arnoud M.J. Wokke (Frisian locale)
+	</description>
+	<spacer height="15"/>
+</vbox>
+
+</dialog>

@@ -1,0 +1,32 @@
+content	fuzzytime	jar:chrome/fuzzytime.jar!/content/
+locale	fuzzytime	en	jar:chrome/fuzzytime.jar!/content/locale/en/
+locale	fuzzytime	de	jar:chrome/fuzzytime.jar!/content/locale/de/
+locale	fuzzytime	de-THU	jar:chrome/fuzzytime.jar!/content/locale/de-THU/
+locale	fuzzytime	de-HES	jar:chrome/fuzzytime.jar!/content/locale/de-HES/
+locale	fuzzytime	fr	jar:chrome/fuzzytime.jar!/content/locale/fr/
+locale	fuzzytime	nl	jar:chrome/fuzzytime.jar!/content/locale/nl2/
+locale	fuzzytime	es-ES	jar:chrome/fuzzytime.jar!/content/locale/es-ES/
+locale	fuzzytime	pt-BR	jar:chrome/fuzzytime.jar!/content/locale/pt-BR/
+locale	fuzzytime	pt-PT	jar:chrome/fuzzytime.jar!/content/locale/pt-PT/
+locale	fuzzytime	it	jar:chrome/fuzzytime.jar!/content/locale/it/
+locale	fuzzytime	fi	jar:chrome/fuzzytime.jar!/content/locale/fi/
+locale	fuzzytime	sv-SE	jar:chrome/fuzzytime.jar!/content/locale/sv-SE/
+locale	fuzzytime	id	jar:chrome/fuzzytime.jar!/content/locale/id/
+locale	fuzzytime	el	jar:chrome/fuzzytime.jar!/content/locale/el/
+locale	fuzzytime	da	jar:chrome/fuzzytime.jar!/content/locale/da/
+locale	fuzzytime	ru	jar:chrome/fuzzytime.jar!/content/locale/ru2/
+locale	fuzzytime	no	jar:chrome/fuzzytime.jar!/content/locale/no/
+locale	fuzzytime	fa	jar:chrome/fuzzytime.jar!/content/locale/fa/
+locale	fuzzytime	de-CH	jar:chrome/fuzzytime.jar!/content/locale/de-CH/
+locale	fuzzytime	sk	jar:chrome/fuzzytime.jar!/content/locale/sk/
+locale	fuzzytime	hu	jar:chrome/fuzzytime.jar!/content/locale/hu-HU/
+locale	fuzzytime	ro	jar:chrome/fuzzytime.jar!/content/locale/ro/
+locale	fuzzytime	cs	jar:chrome/fuzzytime.jar!/content/locale/cs/
+locale	fuzzytime	sr	jar:chrome/fuzzytime.jar!/content/locale/sr/
+locale	fuzzytime	tr	jar:chrome/fuzzytime.jar!/content/locale/tr/
+locale	fuzzytime	ar	jar:chrome/fuzzytime.jar!/content/locale/ar/
+locale	fuzzytime	af	jar:chrome/fuzzytime.jar!/content/locale/af/
+locale	fuzzytime	zh-CN	jar:chrome/fuzzytime.jar!/content/locale/zh-CN/
+locale	fuzzytime	pl	jar:chrome/fuzzytime.jar!/content/locale/pl/
+
+overlay	chrome://browser/content/browser.xul	chrome://fuzzytime/content/fuzzytimeOverlay.xul

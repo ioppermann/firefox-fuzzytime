@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://fuzzytime/locale/fuzzytime.dtd">
+
+<overlay id="fuzzytime-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="fuzzytime-stringbundle" src="chrome://fuzzytime/locale/fuzzytime.properties"/>
+	</stringbundleset>
+
+	<script type="application/x-javascript" src="chrome://fuzzytime/content/fuzzytimeOverlay.js" />
+	
+	<statusbar id="status-bar">
+		<statusbarpanel
+			id="fuzzytime-display"
+			label=""
+			oncontextmenu="fuzzytimePopup(event)"
+		/>
+	</statusbar>
+<!--
+			insertbefore="adblock-status,statusbar-updates,statusbarpanel-progress,security-button,privacy-button,offline-status,popupIcon,statusbar-display,component-bar"
+-->
+	<window id="main-window">
+		<popupset id="mainPopupSet">
+			<popup id="fuzzytime-contextmenu" position="before_end">
+				<menuitem id="fuzzytime-modus-extreme" label="&fuzzytime.extreme;" type="radio" name="fuzzyswitch" oncommand="fuzzytimeSwitch(2);"/>
+				<menuitem id="fuzzytime-modus-very" label="&fuzzytime.very;" type="radio" name="fuzzyswitch" oncommand="fuzzytimeSwitch(1);"/>
+				<menuitem id="fuzzytime-modus-normal" label="&fuzzytime.normal;" type="radio" name="fuzzyswitch" oncommand="fuzzytimeSwitch(0);"/>
+				<menuseparator/>
+				<menu id="fuzzytime-languagemenu" label="Languages">
+					<menupopup>
+						<menu label="A-E">
+							<menupopup>
+								<menuitem id="fuzzytime-language-af" label="Afrikaans" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('af');"/>
+								<menuitem id="fuzzytime-language-ar" label="Arabic" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('ar');"/>
+								<menuitem id="fuzzytime-language-es-CA" label="Català Occidental (Catalunya)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('es-CA');"/>
+								<menuitem id="fuzzytime-language-cs" label="Česky" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('cs');"/>
+								<menuitem id="fuzzytime-language-zh-CN" label="Chinese (Simplified)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('zh-CN');"/>
+								<menuitem id="fuzzytime-language-da" label="Dansk" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('da');"/>
+								<menuitem id="fuzzytime-language-de" label="Deutsch" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('de');"/>
+								<menuitem id="fuzzytime-language-de-BY" label="Deutsch (Bayrisch)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('de-BY');"/>
+								<menuitem id="fuzzytime-language-de-CH" label="Deutsch (Schweiz, Basel)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('de-CH');"/>
+								<menuitem id="fuzzytime-language-de-CH2" label="Deutsch (Schweiz)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('de-CH2');"/>
+								<menuitem id="fuzzytime-language-de-CH3" label="Deutsch (Schweiz, Bern)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('de-CH3');"/>
+								<menuitem id="fuzzytime-language-de-HES" label="Deutsch (Hessisch)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('de-HES');"/>
+								<menuitem id="fuzzytime-language-de-THU" label="Deutsch (Thüringisch)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('de-THU');"/>
+								<menuitem id="fuzzytime-language-el" label="Ελληνικά" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('el');"/>
+								<menuitem id="fuzzytime-language-en" label="English (USA)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('en');"/>
+								<menuitem id="fuzzytime-language-es-CL" label="Español (Chileno)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('es-CL');"/>
+								<menuitem id="fuzzytime-language-es-ES" label="Español (España)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('es-ES');"/>
+							</menupopup>
+						</menu>
+						<menu label="F-O">
+							<menupopup>
+								<menuitem id="fuzzytime-language-fr" label="Français" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('fr');"/>
+								<menuitem id="fuzzytime-language-it-FUR" label="Furlan" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('it-FUR');"/>
+								<menuitem id="fuzzytime-language-fy-NL" label="Frisian" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('fy-NL');"/>
+								<menuitem id="fuzzytime-language-es-GL" label="Galician" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('es-GL');"/>
+								<menuitem id="fuzzytime-language-il" label="Hebrew" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('il');"/>
+								<menuitem id="fuzzytime-language-id" label="Indonesian" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('id');"/>
+								<menuitem id="fuzzytime-language-it" label="Italiano" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('it');"/>
+								<menuitem id="fuzzytime-language-hu-HU" label="Magyar (1)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('hu-HU');"/>
+								<menuitem id="fuzzytime-language-hu-HU2" label="Magyar (2)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('hu-HU2');"/>
+								<menuitem id="fuzzytime-language-nl" label="Nederlands" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('nl');"/>
+								<menuitem id="fuzzytime-language-nl2" label="Nederlands (2)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('nl2');"/>
+								<menuitem id="fuzzytime-language-no" label="Norsk" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('no');"/>
+							</menupopup>
+						</menu>
+						<menu label="P-Z">
+							<menupopup>
+								<menuitem id="fuzzytime-language-fa" label="Persian" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('fa');"/>
+								<menuitem id="fuzzytime-language-pl" label="Polski" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('pl');"/>
+								<menuitem id="fuzzytime-language-pt-BR" label="Português (Brasil)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('pt-BR');"/>
+								<menuitem id="fuzzytime-language-pt-PT" label="Português (Portugal)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('pt-PT');"/>
+								<menuitem id="fuzzytime-language-ro" label="Romanian" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('ro');"/>
+								<menuitem id="fuzzytime-language-ru" label="Russian" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('ru');"/>
+								<menuitem id="fuzzytime-language-ru2" label="Russian (2)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('ru2');"/>
+								<menuitem id="fuzzytime-language-ru3" label="Russian (3)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('ru3');"/>
+								<menuitem id="fuzzytime-language-sk" label="Slovak" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('sk');"/>
+								<menuitem id="fuzzytime-language-fi" label="Suomi" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('fi');"/>
+								<menuitem id="fuzzytime-language-sv-SE" label="Svenska (Sverige)" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('sv-SE');"/>
+								<menuitem id="fuzzytime-language-tr" label="Turkish" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('tr');"/>
+							</menupopup>
+						</menu>
+						<menuseparator/>
+						<menuitem id="fuzzytime-language-default" label="Browser default" type="radio" name="fuzzylanguage" oncommand="fuzzytimeLanguageSwitch('default');"/>
+					</menupopup>
+				</menu>
+		  	</popup>
+		</popupset>
+	</window>
+</overlay>

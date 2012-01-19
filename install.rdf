@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$qh6Hr"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="1.5"
+                   em:maxVersion="10.*" />
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="fuzzytime@oppermann.ch"
+                   em:version="1.13"
+                   em:type="2"
+                   em:name="Fuzzy Time"
+                   em:creator="Ingo Oppermann"
+                   em:aboutURL="chrome://fuzzytime/content/fuzzytimeAbout.xul"
+                   em:description="Displays the time in a fuzzy way">
+    <em:targetApplication RDF:resource="rdf:#$qh6Hr"/>
+  </RDF:Description>
+</RDF:RDF>

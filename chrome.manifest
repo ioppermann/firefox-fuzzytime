@@ -1,0 +1,32 @@
+content	fuzzytime	chrome/content/
+locale	fuzzytime	en	chrome/content/locale/en/
+locale	fuzzytime	de	chrome/content/locale/de/
+locale	fuzzytime	de-THU	chrome/content/locale/de-THU/
+locale	fuzzytime	de-HES	chrome/content/locale/de-HES/
+locale	fuzzytime	fr	chrome/content/locale/fr/
+locale	fuzzytime	nl	chrome/content/locale/nl/
+locale	fuzzytime	es-ES	chrome/content/locale/es-ES/
+locale	fuzzytime	pt-BR	chrome/content/locale/pt-BR/
+locale	fuzzytime	pt-PT	chrome/content/locale/pt-PT/
+locale	fuzzytime	it	chrome/content/locale/it/
+locale	fuzzytime	fi	chrome/content/locale/fi/
+locale	fuzzytime	sv-SE	chrome/content/locale/sv-SE/
+locale	fuzzytime	id	chrome/content/locale/id/
+locale	fuzzytime	el	chrome/content/locale/el/
+locale	fuzzytime	da	chrome/content/locale/da/
+locale	fuzzytime	ru	chrome/content/locale/ru2/
+locale	fuzzytime	no	chrome/content/locale/no/
+locale	fuzzytime	fa	chrome/content/locale/fa/
+locale	fuzzytime	de-CH	chrome/content/locale/de-CH/
+locale	fuzzytime	sk	chrome/content/locale/sk/
+locale	fuzzytime	hu	chrome/content/locale/hu-HU/
+locale	fuzzytime	ro	chrome/content/locale/ro/
+locale	fuzzytime	cs	chrome/content/locale/cs/
+locale	fuzzytime	tr	chrome/content/locale/tr/
+locale	fuzzytime	il	chrome/content/locale/il/
+locale	fuzzytime	ar	chrome/content/locale/ar/
+locale	fuzzytime	af	chrome/content/locale/af/
+locale	fuzzytime	zh-CN	chrome/content/locale/zh-CN/
+locale	fuzzytime	pl	chrome/content/locale/pl/
+
+overlay	chrome://browser/content/browser.xul	chrome://fuzzytime/content/fuzzytimeOverlay.xul
