@@ -6,14 +6,75 @@
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="1.5"
                    em:maxVersion="10.*" />
-  <RDF:Description RDF:about="urn:mozilla:install-manifest"
-                   em:id="fuzzytime@oppermann.ch"
-                   em:version="1.13"
-                   em:type="2"
-                   em:name="Fuzzy Time"
-                   em:creator="Ingo Oppermann"
-                   em:aboutURL="chrome://fuzzytime/content/fuzzytimeAbout.xul"
-                   em:description="Displays the time in a fuzzy way">
+  <RDF:Description RDF:about="urn:mozilla:install-manifest">
+    <em:id>fuzzytime@oppermann.ch</em:id>
+    <em:version>1.13</em:version>
+    <em:type>2</em:type>
+    <em:name>Fuzzy Time</em:name>
+    <em:creator>Ingo Oppermann</em:creator>
+    <em:aboutURL>chrome://fuzzytime/content/aboutcentral.xul</em:aboutURL>
+    <em:description>Displays the time in a fuzzy way</em:description>
     <em:targetApplication RDF:resource="rdf:#$qh6Hr"/>
+    <em:homepageURL>https://github.com/ioppermann/firefox-fuzzytime</em:homepageURL>
+
+    <em:contributor>Szabolcs Hubai</em:contributor>
+
+    <em:translator>David L. Pratte (French locale)</em:translator>
+    <em:translator>Geert De Maeyer (Dutch locale)</em:translator>
+    <em:translator>Qaz Janssen (Dutch locale)</em:translator>
+    <em:translator>David L. Pratte (Spanish locale)</em:translator>
+    
+    <em:translator>Javier Anton (Spanish locale)</em:translator>
+    <em:translator>Luiz Augusto Nolasco (Portuguese locale)</em:translator>
+    <em:translator>Davide Bordiga (Italian locale)</em:translator>
+    <em:translator>Karri Kaukinen (Finnish locale)</em:translator>
+    
+    <em:translator>Ingvar Johansson (Swedish locale)</em:translator>
+    <em:translator>Dendi Reza (Indonesian locale)</em:translator>
+    <em:translator>Costas Mylonas (Greek locale)</em:translator>
+    <em:translator>Lars Holmgaard, larsholmgaard.dk (Danish locale)</em:translator>
+    
+    <em:translator>Andrew Kirillov (Russian locale)</em:translator>
+    <em:translator>Oivind Skau (Norwegian locale)</em:translator>
+    <em:translator>Pooyan Zamanian (Persian locale)</em:translator>
+    <em:translator>Andreas Martin (Swiss German [Basel] locale)</em:translator>
+    
+    <em:translator>Kurt Kriesi (Swiss German locale)</em:translator>
+    <em:translator>Martin Weinz (German Hessisch locale)</em:translator>
+    <em:translator>Andreas Makarenko (Russian locale)</em:translator>
+    <em:translator>Jonathan Schlegel (Swiss German [Bern] locale)</em:translator>
+    
+    <em:translator>Ramon Maria Gallart (Catalan locale)</em:translator>
+    <em:translator>Wladow (Slovak locale)</em:translator>
+    <em:translator>Norbert Csík (Hungarian locale)</em:translator>
+    <em:translator>András Szekely (Hungarian locale)</em:translator>
+    
+    <em:translator>Catalina Alexandru (Romanian locale)</em:translator>
+    <em:translator>Kim Sullivan (Czech locale)</em:translator>
+    <em:translator>Selçuk Dolapçi (Turkish locale)</em:translator>
+    <em:translator>Hillel Abramovitch (Hebrew locale)</em:translator>
+    
+    <em:translator>Mazen Bamasoud (Arabic locale)</em:translator>
+    <em:translator>Steffen Körner (German Thüringisch locale)</em:translator>
+    <em:translator>Dan Rowden (Afrikaans locale)</em:translator>
+    <em:translator>Santiag! (Galician locale)</em:translator>
+    
+    <em:translator>Rick Cart (Chinese locale)</em:translator>
+    <em:translator>Tiago Xarepe (Porutguese locale)</em:translator>
+    <em:translator>Harald Götz (German Bayrisch locale)</em:translator>
+    <em:translator>Michał Cieślicki (Polish locale)</em:translator>
+    
+    <em:translator>Cristiano "Baro" Dri (Friulian locale)</em:translator>
+    <em:translator>Piotr Dybiec (Polish locale)</em:translator>
+    <em:translator>Jose Jara JJPP (Chilean locale)</em:translator>
+    <em:translator>Arnoud M.J. Wokke (Frisian locale)</em:translator>
+    
+    <!--
+    <em:translator></em:translator>
+    <em:translator></em:translator>
+    <em:translator></em:translator>
+    <em:translator></em:translator>
+    -->
+    
   </RDF:Description>
 </RDF:RDF>
