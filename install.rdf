@@ -12,7 +12,6 @@
     <em:type>2</em:type>
     <em:name>Fuzzy Time</em:name>
     <em:creator>Ingo Oppermann</em:creator>
-    <em:aboutURL>chrome://fuzzytime/content/aboutcentral.xul</em:aboutURL>
     <em:description>Displays the time in a fuzzy way</em:description>
     <em:targetApplication RDF:resource="rdf:#$qh6Hr"/>
     <em:homepageURL>https://github.com/ioppermann/firefox-fuzzytime</em:homepageURL>
