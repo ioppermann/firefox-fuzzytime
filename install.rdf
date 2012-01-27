@@ -15,5 +15,7 @@
                    em:aboutURL="chrome://fuzzytime/content/fuzzytimeAbout.xul"
                    em:description="Displays the time in a fuzzy way">
     <em:targetApplication RDF:resource="rdf:#$qh6Hr"/>
+    <em:iconURL>chrome://fuzzytime/skin/icon_02.png</em:iconURL>
+    <em:icon64URL>chrome://fuzzytime/skin/icon64_02.png</em:icon64URL>
   </RDF:Description>
 </RDF:RDF>
