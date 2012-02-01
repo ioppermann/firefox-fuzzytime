@@ -74,6 +74,8 @@
     <em:translator></em:translator>
     <em:translator></em:translator>
     -->
-    
+
+    <em:iconURL>chrome://fuzzytime/skin/icon_02.png</em:iconURL>
+    <em:icon64URL>chrome://fuzzytime/skin/icon64_02.png</em:icon64URL>
   </RDF:Description>
 </RDF:RDF>
