@@ -30,6 +30,8 @@ locale	fuzzytime	zh-CN	chrome/content/locale/zh-CN/
 locale	fuzzytime	pl	chrome/content/locale/pl/
 
 overlay	chrome://browser/content/browser.xul	chrome://fuzzytime/content/fuzzytimeOverlay.xul
+style	chrome://browser/content/browser.xul	chrome://fuzzytime/skin/overlay.css 
+
 overlay	chrome://mozapps/content/extensions/about.xul	chrome://fuzzytime/content/fuzzytimeAboutOverlay.xul
 
 skin	fuzzytime	classic/1.0	skin/

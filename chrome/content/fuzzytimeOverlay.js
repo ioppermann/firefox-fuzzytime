@@ -14,7 +14,6 @@ function fuzzytimeInit() {
 	fuzzytimePrefObserver.register();
 
 	fuzzytime_stringbundle = document.getElementById("fuzzytime-stringbundle");
-	fuzzytime_display = document.getElementById("fuzzytime-display");
 
 	fuzzytime_transition = parseInt(fuzzytime_stringbundle.getString("fuzzytime.transition"));
 	fuzzytime_order = parseInt(fuzzytime_stringbundle.getString("fuzzytime.order"));
@@ -22,7 +21,7 @@ function fuzzytimeInit() {
 
 	fuzzytimeLoadPrefs();
 
-	fuzzytimeUpdate();
+	setTimeout(fuzzytimeUpdate, 100);
 
 	return true;
 }
@@ -124,7 +123,9 @@ function fuzzytimeUpdate() {
 		}
 	}
 
-	fuzzytime_display.label = label;
+	fuzzytime_display = document.getElementById("fuzzytime-button-label") || document.getElementById("fuzzytime-status-label");
+	if (null != fuzzytime_display)
+		fuzzytime_display.value = label;
 
 	fuzzytime_timeout = setTimeout("fuzzytimeUpdate()", 60000);
 
@@ -408,4 +409,4 @@ var fuzzytimePrefObserver = {
 
 window.addEventListener("load", fuzzytimeInit, false);
 window.addEventListener("close", fuzzytimeClose, false);
-
+window.addEventListener("aftercustomization", fuzzytimeUpdate, false);
