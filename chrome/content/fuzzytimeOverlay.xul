@@ -84,23 +84,5 @@
 			</menu>
 		</menupopup>
 	</popupset>
-	
-	<statusbar id="status-bar">
-		<statusbarpanel
-			id="fuzzytime-statusbar"
-			context="fuzzytime-contextmenu"
-		>
-		<label id="fuzzytime-status-label" value=""/>
-		</statusbarpanel>
-	</statusbar>
-	
-	<toolbarpalette id="BrowserToolbarPalette">
-		<toolbaritem id="fuzzytime-toolbar"
-								label="Fuzzy Time">
-			<toolbarbutton id="fuzzytime-toolbar-button" class="toolbarbutton-1"
-										context="fuzzytime-contextmenu">
-				<label id="fuzzytime-button-label" value=""/>
-			</toolbarbutton>
-		</toolbaritem>
-	</toolbarpalette>
+
 </overlay>

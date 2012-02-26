@@ -1,9 +1,3 @@
-
-#addon-bar > #status-bar > #fuzzytime-statusbar {
-    visibility: collapse;
-}
-
-#fuzzytime-statusbar,
 #fuzzytime-toolbar,
 #fuzzytime-toolbar-button {
     -moz-box-orient: horizontal;
