@@ -13,7 +13,7 @@
 	<vbox id="clientBox">
 		<hbox flex="1" id="fuzzytime-buildfrom" hidden="true">
 			<label id="extensionBuildFrom" value="Has been built from:"/>
-			<label id="extensionBuildFromLink" class="text-link" style="border-top-width: 0px !important;" value="Some SHA1 hash" />
+			<label id="extensionBuildFromLink" class="text-link" style="border-top-width: 0px !important;" value="@@fuzzytime_commitid@@" />
 		</hbox>
 	</vbox>
 

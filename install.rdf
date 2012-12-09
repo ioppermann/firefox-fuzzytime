@@ -5,10 +5,10 @@
   <RDF:Description RDF:about="rdf:#$qh6Hr"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="1.5"
-                   em:maxVersion="10.*" />
+                   em:maxVersion="19.*" />
   <RDF:Description RDF:about="urn:mozilla:install-manifest">
     <em:id>fuzzytime@oppermann.ch</em:id>
-    <em:version>1.13</em:version>
+    <em:version>@@fuzzytime_version@@</em:version>
     <em:type>2</em:type>
     <em:name>Fuzzy Time</em:name>
     <em:creator>Ingo Oppermann</em:creator>
