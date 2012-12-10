@@ -1,0 +1,4 @@
+#fuzzytime-toolbar,
+#fuzzytime-toolbar-button {
+    -moz-box-orient: horizontal;
+}
